@@ -12,6 +12,15 @@ class School
     roster[grade] << name
   end
 
+  def grade (grade)
+    roster[grade]
+  end
 
+  def sort(list)
+    list = {}
+    list.each do |name, grade|
+      list.sort_by {|name| name.class == list ? name.first : name}
+    end 
+  end 
 
 end
