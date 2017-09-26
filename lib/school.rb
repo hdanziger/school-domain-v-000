@@ -18,8 +18,8 @@ class School
 
   def sort(list)
     list = {}
-    list.each do |name, grade|
-      list.sort_by {|name| name.class == list ? name.first : name}
+    roster.each do |grad, name|
+      list[grade] = name.sort
     end
   end
 
