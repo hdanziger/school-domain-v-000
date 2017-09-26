@@ -1,8 +1,8 @@
 # code here!
-class School 
+class School
 
   def initialize(name)
-    @name = name 
+    @name = name
   end
 
   
