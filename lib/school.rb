@@ -20,7 +20,7 @@ class School
     list = {}
     list.each do |name, grade|
       list.sort_by {|name| name.class == list ? name.first : name}
-    end 
-  end 
+    end
+  end
 
 end
